@@ -32,7 +32,7 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
 
 
-class MainActivity : ComponentActivity() {
+/*class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-}
+*/
 
 data class Message(val author: String, val body: String)
 
